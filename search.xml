@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[博客搭建说明]]></title>
+    <url>%2F2019%2F01%2F13%2Freadme%2F</url>
+    <content type="text"><![CDATA[博客使用基于node.js的Hexo和zhwangart的theme，以及github.io和阿里云域名管理搭建完成。 The First Step 拥有Github账号 本地下载Hexo Hexo配置关联Github(yourname.github.io) 1234deploy: type: git repository: git@github.com:duduer/duduer.github.io.git branch: master The Second Step Hexo找个主题 Hexo同步环境文件到Github分支 Hexo插件安装 The Last Step 阿里云免费域名(不知道现在还有没有) 配置域名解析到Github]]></content>
+  </entry>
+</search>
