@@ -69,11 +69,47 @@
 <li>阿里云免费域名(不知道现在还有没有)</li>
 <li>配置域名解析到Github</li>
 </ul>
+<a id="more"></a>
+<h2 id="hexo相关操作记录"><a href="#hexo相关操作记录" class="headerlink" title="hexo相关操作记录"></a>hexo相关操作记录</h2><h4 id="hexo基本操作"><a href="#hexo基本操作" class="headerlink" title="hexo基本操作"></a>hexo基本操作</h4><ul>
+<li>hexo目录结构如下：<br>  <em>source：存放元数据，以及通过以下命令</em><pre><code>hexo new page
+</code></pre>  <em>创建的目录，以及需要在对应的 themes 主题下修改对应的_config.yml</em><pre><code>menu:
+  #Home
+    首页: /
+  # Archives
+    读书: /archives
+</code></pre><em>public: 发布文件夹，存放发布到Github的静态资源文件路径，使用如下命令操作</em><pre><code>    hexo g #生成静态文件
+    hexo d #发布到github上
+    hexo s #启动本地服务器（http://localhost:4000/）
+hexo clean #清理生成的静态文件
+</code></pre><em>categories: 分类文件夹，需要支持分类的话，需要在该目录下新建目录，且在_config.yml添加</em><pre><code>category_map:
+  代码: code
+  读书: book
+</code></pre><em>themes目录下的languages目录中包含zh-CN.yml，可以将英文title转换中文，且需要在全局配置中添加 language: zh-CN</em><pre><code>categories: 分类
+code: 代码
+book: 读书
+search: 搜索
+</code></pre></li>
+<li>hexo创建page和文章：<br><em>创建page，page有默认格式支持，但是一个标签只有一个页面</em><pre><code>hexo new page xx
+</code></pre><em>page是否支持分类，需要主题支持，如果不支持，则只能使用categories，默认支持分类，需要修改themes下config.yml</em><pre><code>menu:
+  读书: /categories/book
+</code></pre><em>创建文章和草稿</em><pre><code>hexo new xx
+hexo new draft xx #创建草稿
+hexo publish [layout] &lt;filename&gt; #发布成文章
+</code></pre><em>文章参数</em><pre><code>title: shell #标题
+date: 2019-01-21 23:35:09
+categories: 代码 #分类，会和category_map中的映射对应。
+tags: 
+  - shell #标签，可以支持多个
+  - bash
+archives: /archives #归档路径
+</code></pre></li>
+</ul>
+<h3 id="如何在Github分支上保存hexo其他资源，进行备份"><a href="#如何在Github分支上保存hexo其他资源，进行备份" class="headerlink" title="如何在Github分支上保存hexo其他资源，进行备份"></a>如何在Github分支上保存hexo其他资源，进行备份</h3><p>-</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/13/readme/" data-id="cjquzyt33000004dwytm9gncn" class="article-share-link">Share</a>
+      <a data-url="http://chenheng.xyz/2019/01/13/readme/" data-id="cjr7w9f6v0000a0dwm2xhluhb" class="article-share-link">Share</a>
       
     </footer>
 
@@ -123,7 +159,7 @@
       </li>
     
       <li class="nav-item">
-        <a class="nav-item-link" href="/archives">归档</a>
+        <a class="nav-item-link" href="/categories/code">代码</a>
       </li>
     
       <li class="nav-item">
@@ -131,11 +167,19 @@
       </li>
     
       <li class="nav-item">
+        <a class="nav-item-link" href="/categories/book">读书</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-item-link" href="/archives">归档</a>
+      </li>
+    
+      <li class="nav-item">
         <a class="nav-item-link" href="/about">关于</a>
       </li>
     
     <li class="nav-item">
-      <a class="nav-item-link nav-item-search" title="Search">
+      <a class="nav-item-link nav-item-search" title="搜索">
         <i class="fe fe-search"></i>
         搜索
       </a>
