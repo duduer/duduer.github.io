@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chenheng.xyz/"/>
-  <updated>2019-01-22T15:16:01.806Z</updated>
+  <updated>2019-01-22T15:36:02.668Z</updated>
   <id>http://chenheng.xyz/</id>
   
   <author>
@@ -17,35 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>shell复习-1</title>
+    <link href="http://chenheng.xyz/2019/01/22/shell-1/"/>
+    <id>http://chenheng.xyz/2019/01/22/shell-1/</id>
+    <published>2019-01-22T15:25:40.000Z</published>
+    <updated>2019-01-22T15:36:02.668Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="bash-csh-sh等bash解释器区别"><a href="#bash-csh-sh等bash解释器区别" class="headerlink" title="bash,csh,sh等bash解释器区别"></a>bash,csh,sh等bash解释器区别</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;bash-csh-sh等bash解释器区别&quot;&gt;&lt;a href=&quot;#bash-csh-sh等bash解释器区别&quot; class=&quot;headerlink&quot; title=&quot;bash,csh,sh等bash解释器区别&quot;&gt;&lt;/a&gt;bash,csh,sh等bash解释器区别&lt;/
+      
+    
+    </summary>
+    
+      <category term="代码" scheme="http://chenheng.xyz/categories/code/"/>
+    
+    
+      <category term="shell" scheme="http://chenheng.xyz/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客搭建说明</title>
     <link href="http://chenheng.xyz/2019/01/13/readme/"/>
     <id>http://chenheng.xyz/2019/01/13/readme/</id>
     <published>2019-01-13T13:29:28.310Z</published>
-    <updated>2019-01-22T15:16:01.806Z</updated>
+    <updated>2019-01-22T15:48:12.604Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>博客使用基于node.js的<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>和zhwangart的<a href="https://zhwangart.github.io/" target="_blank" rel="noopener">theme</a>，以及<a href="https://github.com/" target="_blank" rel="noopener">github.io</a>和<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a>域名管理搭建完成。</strong></p><h2 id="The-First-Step"><a href="#The-First-Step" class="headerlink" title="The First Step"></a>The First Step</h2><ul><li>拥有Github账号</li><li>本地下载Hexo</li><li>Hexo配置关联Github(yourname.github.io)  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   type: git</span><br><span class="line">     repository: git@github.com:duduer/duduer.github.io.git</span><br><span class="line">     branch: master</span><br></pre></td></tr></table></figure></li></ul><h2 id="The-Second-Step"><a href="#The-Second-Step" class="headerlink" title="The Second Step"></a>The Second Step</h2><ul><li>Hexo找个<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a></li><li>Hexo同步环境文件到Github分支</li><li>Hexo插件安装</li></ul><h2 id="The-Last-Step"><a href="#The-Last-Step" class="headerlink" title="The Last Step"></a>The Last Step</h2><ul><li>阿里云免费域名(不知道现在还有没有)</li><li>配置域名解析到Github</li></ul><a id="more"></a><h2 id="hexo相关操作记录"><a href="#hexo相关操作记录" class="headerlink" title="hexo相关操作记录"></a>hexo相关操作记录</h2><h4 id="hexo基本操作"><a href="#hexo基本操作" class="headerlink" title="hexo基本操作"></a>hexo基本操作</h4><ul><li>hexo目录结构如下：<br>  <em>source：存放元数据，以及通过以下命令</em><pre><code>hexo new page</code></pre>  <em>创建的目录，以及需要在对应的 themes 主题下修改对应的_config.yml</em><pre><code>menu:  #Home    首页: /  # Archives    读书: /archives</code></pre><em>public: 发布文件夹，存放发布到Github的静态资源文件路径，使用如下命令操作</em><pre><code>    hexo g #生成静态文件    hexo d #发布到github上    hexo s #启动本地服务器（http://localhost:4000/）hexo clean #清理生成的静态文件</code></pre><em>categories: 分类文件夹，需要支持分类的话，需要在该目录下新建目录，且在_config.yml添加</em><pre><code>category_map:  代码: code  读书: book</code></pre><em>themes目录下的languages目录中包含zh-CN.yml，可以将英文title转换中文，且需要在全局配置中添加 language: zh-CN</em><pre><code>categories: 分类code: 代码book: 读书search: 搜索</code></pre></li><li>hexo创建page和文章：<br><em>创建page，page有默认格式支持，但是一个标签只有一个页面</em><pre><code>hexo new page xx</code></pre><em>page是否支持分类，需要主题支持，如果不支持，则只能使用categories，默认支持分类，需要修改themes下config.yml</em><pre><code>menu:  读书: /categories/book</code></pre><em>创建文章和草稿</em><pre><code>hexo new xxhexo new draft xx #创建草稿hexo publish [layout] &lt;filename&gt; #发布成文章</code></pre><em>文章参数</em><pre><code>title: shell #标题date: 2019-01-21 23:35:09categories: 代码 #分类，会和category_map中的映射对应。tags:   - shell #标签，可以支持多个  - basharchives: /archives #归档路径</code></pre></li></ul><h3 id="如何在Github分支上保存hexo其他资源，进行备份"><a href="#如何在Github分支上保存hexo其他资源，进行备份" class="headerlink" title="如何在Github分支上保存hexo其他资源，进行备份"></a>如何在Github分支上保存hexo其他资源，进行备份</h3><p>-</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>博客使用基于node.js的<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>和zhwangart的<a href="https://zhwangart.github.io/" target="_blank" rel="noopener">theme</a>，以及<a href="https://github.com/" target="_blank" rel="noopener">github.io</a>和<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a>域名管理搭建完成。</strong><br><a id="more"></a></p><h2 id="The-First-Step"><a href="#The-First-Step" class="headerlink" title="The First Step"></a>The First Step</h2><ul><li>拥有Github账号</li><li>本地下载Hexo</li><li>Hexo配置关联Github(yourname.github.io)  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   type: git</span><br><span class="line">     repository: git@github.com:duduer/duduer.github.io.git</span><br><span class="line">     branch: master</span><br></pre></td></tr></table></figure></li></ul><h2 id="The-Second-Step"><a href="#The-Second-Step" class="headerlink" title="The Second Step"></a>The Second Step</h2><ul><li>Hexo找个<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a></li><li>Hexo同步环境文件到Github分支</li><li>Hexo插件安装</li></ul><h2 id="The-Last-Step"><a href="#The-Last-Step" class="headerlink" title="The Last Step"></a>The Last Step</h2><ul><li>阿里云免费域名(不知道现在还有没有)</li><li>配置域名解析到Github</li></ul><h2 id="hexo相关操作记录"><a href="#hexo相关操作记录" class="headerlink" title="hexo相关操作记录"></a>hexo相关操作记录</h2><h4 id="hexo基本操作"><a href="#hexo基本操作" class="headerlink" title="hexo基本操作"></a>hexo基本操作</h4><ul><li>hexo目录结构如下：<br>  <em>source：存放元数据，以及通过以下命令</em><pre><code>hexo new page</code></pre>  <em>创建的目录，以及需要在对应的 themes 主题下修改对应的_config.yml</em><pre><code>menu:  #Home    首页: /  # Archives    读书: /archives</code></pre><em>public: 发布文件夹，存放发布到Github的静态资源文件路径，使用如下命令操作</em><pre><code>    hexo g #生成静态文件    hexo d #发布到github上    hexo s #启动本地服务器（http://localhost:4000/）hexo clean #清理生成的静态文件</code></pre><em>categories: 分类文件夹，需要支持分类的话，需要在该目录下新建目录，且在_config.yml添加</em><pre><code>category_map:  代码: code  读书: book</code></pre><em>themes目录下的languages目录中包含zh-CN.yml，可以将英文title转换中文，且需要在全局配置中添加 language: zh-CN</em><pre><code>categories: 分类code: 代码book: 读书search: 搜索</code></pre></li><li>hexo创建page和文章：<br><em>创建page，page有默认格式支持，但是一个标签只有一个页面</em><pre><code>hexo new page xx</code></pre><em>page是否支持分类，需要主题支持，如果不支持，则只能使用categories，默认支持分类，需要修改themes下config.yml</em><pre><code>menu:  读书: /categories/book</code></pre><em>创建文章和草稿</em><pre><code>hexo new xxhexo new draft xx #创建草稿hexo publish [layout] &lt;filename&gt; #发布成文章</code></pre><em>文章参数</em><pre><code>title: shell #标题date: 2019-01-21 23:35:09categories: 代码 #分类，会和category_map中的映射对应。tags:   - shell #标签，可以支持多个  - basharchives: /archives #归档路径</code></pre></li></ul><h3 id="如何在Github分支上保存hexo其他资源，进行备份"><a href="#如何在Github分支上保存hexo其他资源，进行备份" class="headerlink" title="如何在Github分支上保存hexo其他资源，进行备份"></a>如何在Github分支上保存hexo其他资源，进行备份</h3><ul><li>Github创建分支</li><li>hexo其他需要同步的静态资源</li><li>维护更新(注意事项)</li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;博客使用基于node.js的&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;和zhwangart的&lt;a href=&quot;https://zhwangart.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;theme&lt;/a&gt;，以及&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;github.io&lt;/a&gt;和&lt;a href=&quot;https://cn.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阿里云&lt;/a&gt;域名管理搭建完成。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;The-First-Step&quot;&gt;&lt;a href=&quot;#The-First-Step&quot; class=&quot;headerlink&quot; title=&quot;The First Step&quot;&gt;&lt;/a&gt;The First Step&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;拥有Github账号&lt;/li&gt;
-&lt;li&gt;本地下载Hexo&lt;/li&gt;
-&lt;li&gt;Hexo配置关联Github(yourname.github.io)  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 	  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     repository: git@github.com:duduer/duduer.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;The-Second-Step&quot;&gt;&lt;a href=&quot;#The-Second-Step&quot; class=&quot;headerlink&quot; title=&quot;The Second Step&quot;&gt;&lt;/a&gt;The Second Step&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Hexo找个&lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;主题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hexo同步环境文件到Github分支&lt;/li&gt;
-&lt;li&gt;Hexo插件安装&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;The-Last-Step&quot;&gt;&lt;a href=&quot;#The-Last-Step&quot; class=&quot;headerlink&quot; title=&quot;The Last Step&quot;&gt;&lt;/a&gt;The Last Step&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;阿里云免费域名(不知道现在还有没有)&lt;/li&gt;
-&lt;li&gt;配置域名解析到Github&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;p&gt;&lt;strong&gt;博客使用基于node.js的&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;和zhwangart的&lt;a href=&quot;https://zhwangart.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;theme&lt;/a&gt;，以及&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;github.io&lt;/a&gt;和&lt;a href=&quot;https://cn.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阿里云&lt;/a&gt;域名管理搭建完成。&lt;/strong&gt;&lt;br&gt;
     
     </summary>
     
+    
+      <category term="about" scheme="http://chenheng.xyz/tags/about/"/>
     
   </entry>
   
