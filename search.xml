@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[sql]]></title>
+    <url>%2F2019%2F02%2F13%2Fsql%2F</url>
+    <content type="text"><![CDATA[Sql基础语法 获取数据 ‘’’ select from atable as a (inner) join where and (order by) desc ‘’’]]></content>
+      <categories>
+        <category>代码</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[shell复习-1]]></title>
     <url>%2F2019%2F01%2F22%2Fshell-1%2F</url>
-    <content type="text"><![CDATA[bash,csh,sh等bash解释器区别]]></content>
+    <content type="text"><![CDATA[bash,csh,sh等bash解释器区别—- 都基于bash，除了bash，都是儿子。]]></content>
       <categories>
         <category>代码</category>
       </categories>
