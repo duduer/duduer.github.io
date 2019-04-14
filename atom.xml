@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chenheng.xyz/"/>
-  <updated>2019-02-13T13:32:46.204Z</updated>
+  <updated>2019-02-20T12:28:54.540Z</updated>
   <id>http://chenheng.xyz/</id>
   
   <author>
@@ -17,20 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>interview</title>
+    <link href="http://chenheng.xyz/2019/02/20/interview/"/>
+    <id>http://chenheng.xyz/2019/02/20/interview/</id>
+    <published>2019-02-20T11:50:54.000Z</published>
+    <updated>2019-02-20T12:28:54.540Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="面试经验总结"><a href="#面试经验总结" class="headerlink" title="面试经验总结"></a>面试经验总结</h2><h3 id="shopee、招商测试面试经验总结"><a href="#shopee、招商测试面试经验总结" class="headerlink" title="shopee、招商测试面试经验总结"></a>shopee、招商测试面试经验总结</h3><ul><li><p>面试总结</p><ul><li>关于编程技能，其实这些岗位对于测试的编程技能要求多是要求的工作中应用到的内容，<br>其实最好的话，还是项目能用到什么就讲什么这样最不费劲了。如果说是需要的话，完全掌握<br>一门脚本语言足以，比如python，其他能用起来，稍微了解就可以。主要还是算法和数据结构<br>要吃透，还是需要自己持续不断的学习，一些自己感兴趣的开源项目做起来才行。</li><li>关于数据库知识，熟练sql操作，最好能完全掌握一门数据库，比如mysql，这样不慌</li><li>关于项目描述，其实还是要在其中找亮点，要能够找到有价值的闪光点，关键是要是在<br>技术上的，作为性能测试你觉得什么是亮点？发现有价值的bug？给你个人带来成长？印象最深<br>的？关键问题在如何能够描述恰当符合面试官的期望值。</li><li>关于面试官的问题，要能够迅速而且合适的回答。我很容易就会跑偏，今天面试的这两<br>场都是，很多情况下答非所问。</li><li>其他就是工作中应该做到位的东西没有做到位导致的问题了，不管做什么，打铁还需自<br>身硬，努力提升自己吧。</li></ul></li><li><p>面试内容<br>  shopee-2c业务测试</p><ul><li>先问项目经历，中间在描述https性能优化的过程中问到了RSA解密和SSL握手过程，这部<br>份知识有些忘记了，记性不好，没有完全答出来</li><li>问了测试过程中案例设计和测试过程中遇到的一些难点，基本套路，答得还是有问题，<br>描述不够清楚，让人体会不到确实很难，而且体会不到哪有亮点，而且没办法提问。</li><li>一道shell题：过滤相同id（fdsa##123##sss 第二行是id）的重复数量，一道sql题，<br>选择部门平均工资最高的第五-十名（表 depart user salary），一道测试设计题（流程图，<br>测试设计，需求问题），一道案例设计题（微信输入框测试点设计），一道编程题（已排序的<br>list求输入num，该num重复的最后一位的index）<br><em>以上内容自己给自己打分55分，耗时两个小时，该次面试卒</em><br>招商-性能测试</li><li>直接讲项目经历，然后问框架是怎么样的，这个过程很蛋疼，关键是他们不知道这个框架，<br>然后我继续讲我的项目经历，然后还是不理解，开始问我有没有什么应用方面的，然后就说了https<br>解密项目的优化过程，cpu高和内存高，以及怎么定位cpu高，以及内存高这些问题，答的一般，没有<br>太多亮点，然后说到数据库，涉及到数据一致性的东西怎么确保（不会，没搞过，要看下，虽然感觉<br>上应该和加锁相关的，但是算没答出来），然后问到分布式相关的内容，瞎几把答，再问数据库有没<br>有做过性能测试，把ba的瞎几把讲了一下，然后就问我们数据库和k-v形式的redis异同，瞎几把答，<br>最后问了一下jvm什么的熟悉不，现在有看什么书么，hr相关的内容礼节性的问了一下。。</li><li>关于笔试，大部分都是java的内容，所以以后投java方面的性能测试需要注意复习java相关<br>内容。而且面试会问相关内容<br><em>以上内容自己给自己打分50分，耗时1个小时左右，该次面试卒</em></li></ul></li><li><p>疑问</p><ul><li>关于自己现在找工作就像病急乱投医一样的，没有做好准备，但是又厌烦了在深信服干，这种<br>情况是不对的，只有深耕一个行业，才能做成功事情。</li><li>基础知识很重要，把基础打牢固什么都不虚，就是记性不好。加班太多了吗？</li><li>该休息的休息，很重要</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;面试经验总结&quot;&gt;&lt;a href=&quot;#面试经验总结&quot; class=&quot;headerlink&quot; title=&quot;面试经验总结&quot;&gt;&lt;/a&gt;面试经验总结&lt;/h2&gt;&lt;h3 id=&quot;shopee、招商测试面试经验总结&quot;&gt;&lt;a href=&quot;#shopee、招商测试面试经验总结&quot; c
+      
+    
+    </summary>
+    
+    
+      <category term="about" scheme="http://chenheng.xyz/tags/about/"/>
+    
+  </entry>
+  
+  <entry>
     <title>sql</title>
     <link href="http://chenheng.xyz/2019/02/13/sql/"/>
     <id>http://chenheng.xyz/2019/02/13/sql/</id>
     <published>2019-02-13T13:30:13.000Z</published>
-    <updated>2019-02-13T13:32:46.204Z</updated>
+    <updated>2019-02-16T15:09:18.830Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Sql基础语法"><a href="#Sql基础语法" class="headerlink" title="Sql基础语法"></a>Sql基础语法</h3><ul><li>获取数据<br>  ‘’’ select from  atable as a (inner) join<br>  where and (order by) desc<br>  ‘’’</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="Sql基础语法"><a href="#Sql基础语法" class="headerlink" title="Sql基础语法"></a>Sql基础语法</h3><ul><li>获取数据  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">select from  atable as a (inner) join </span><br><span class="line">where (select * from)and (order by) desc</span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h3 id=&quot;Sql基础语法&quot;&gt;&lt;a href=&quot;#Sql基础语法&quot; class=&quot;headerlink&quot; title=&quot;Sql基础语法&quot;&gt;&lt;/a&gt;Sql基础语法&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;获取数据&lt;br&gt;  ‘’’ select from  atable as a (inne
+&lt;li&gt;获取数据  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table
       
     
     </summary>
@@ -43,20 +66,21 @@
   </entry>
   
   <entry>
-    <title>shell复习-1</title>
+    <title>shell复习-1 基础内容</title>
     <link href="http://chenheng.xyz/2019/01/22/shell-1/"/>
     <id>http://chenheng.xyz/2019/01/22/shell-1/</id>
     <published>2019-01-22T15:25:40.000Z</published>
-    <updated>2019-02-13T13:28:35.516Z</updated>
+    <updated>2019-02-16T15:09:12.523Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="bash-csh-sh等bash解释器区别"><a href="#bash-csh-sh等bash解释器区别" class="headerlink" title="bash,csh,sh等bash解释器区别"></a>bash,csh,sh等bash解释器区别</h3><p>—- 都基于bash，除了bash，都是儿子。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="bash-csh-sh等bash解释器区别"><a href="#bash-csh-sh等bash解释器区别" class="headerlink" title="bash,csh,sh等bash解释器区别"></a>bash,csh,sh等bash解释器区别</h3><ul><li>sh(Bourne shell),最老的shell，也是最基础的</li><li>bash(Bourne Again Shell),Linux 默认，shell的扩展版本，包含部分csh和ksh的特性</li><li>csh，语法和c比较类似</li><li><p>tsch，c shell的扩展版本，支持补全，校正等便捷操作<br>-ksh(korn shell),结合csh和bash特点兼容bash</p><a id="more"></a><h3 id="bash基础相关"><a href="#bash基础相关" class="headerlink" title="bash基础相关"></a>bash基础相关</h3></li><li><p>输入相关<br>`</p><pre><code>&lt; filename(文本输入)&lt;&lt; stop(持续输入知道遇到stop)read param(接受控制台读取一个参数)0 (标准输入描述符)</code></pre><p>`</p></li><li>输出相关<br>`<pre><code>&gt; filename(文本输出,覆盖)&gt;&gt; filename(追加到文本文件)2&gt;&amp;1(把错误输出重定向到标准输出)：find xx &gt; test.log 2&gt;&amp;11 (标准输出描述符)2 (错误输出描述符)</code></pre>`</li><li>变量<br>  <strong>可以通过下面知道$ # @ * 这些符号含义在变量中基本是一致的</strong><br>1) 普通变量<br>`<pre><code>var=xx|var=&quot;xx&quot; (赋值)$var|${var}|&quot;$var&quot; (注意单引号会使得$无效,${}可以作为正则表达式)$* $@ $# #? (* 表示所有参数取值,视为一个参数五区段。 @还存在着区段，#为参数数量,?为上个脚本执行结果)$0|$1···(0表示脚本自己，1等表示参数下标,两位书以上需要用{})( ) (类似 · · 和 eval,执行群组指令获取结果，但是()也可用于数组定义)(( )) (类似let，bash内建指令，算术计算){ } (单纯只使用大括号时，作用就像是个没有指定名称的函数一般,另一种用法常用在字串的组合mkdir {userA,userB,userC}-{home,bin,data}会创建两个大括号的正交组合的目录 )[ ] (判断内容，类似test，[ $a -eq $b ],数值 -eq -ne -lt -le -gt -ge,文件 -r -l -w -x -f -e -d -s -nt -ot,字符 = ！= -n -z ,逻辑 -a -o !)[[ ]] (判断，可以直接 $a==$b 的方式使用)</code></pre><code>2) 数组变量</code><pre><code>array=(1 2 3)|readarray array (数组赋值)${array[@]}|${array[@]:1:4}|${array[1]} (取所有值|取1-4下标的值|取下标1的值)${#aray[@]} ${#array[*]} (获取数组长度)array[1]=xx (数组赋值)unset array[1] unset array (清除下标1的数组值)</code></pre>`</li><li>逻辑判断<br>   <strong>逻辑判断主要包括条件判断，多分支</strong><br>1)if判断<br> <em>if []需要空格分离,[]中间也需要空格</em><br>`<pre><code>if [ $a -eq $b ];then echo $a ;elif [ -f $c ];then echo $c;else echo $b;fi</code></pre><code>2)case判断</code><pre><code>case $opt in    $a) xx    ;;    $b | $c ) xx    ;;    *)    ;;esac</code></pre>`</li><li>循环语句<br>1)for循环<pre><code>for i in $(seq 1 10) | for ((i=0;i&lt;10;i++)) | for i in {1..10}doxxdone</code></pre>2)while循环<pre><code>while :;do    xxdone</code></pre>3)until循环<pre><code>count=1until [[ $count == 10 ]]do    let count+=1done</code></pre>4)break 和continue<pre><code>break n （跳出几层循环，n=2时即会退出2层循环)continue n (中断几层循环，n=2时会中断2层循环重新开始内两层的循环)</code></pre></li><li>脚本内调用其他脚本的方式<br>1)fork<pre><code>fork是最普通的, 就是直接在脚本里面用/directory/script.sh来调用script.sh这个脚本. 运行的时候开一个sub-shell执行调用的脚本，sub-shell执行的时候,parent-shell还在。sub-shell执行完毕后返回parent-shell. sub-shell从parent-shell继承环境变量.但是sub-shell中的环境变量不会带回parent-shell</code></pre>2)exec<pre><code>执行子级的命令后，不再执行父级命令。exec与fork不同，不需要新开一个sub-shell来执行被调用的脚本.  被调用的脚本与父脚本在同一个shell内执行。但是使用exec调用一个新脚本以后, 父脚本中exec行之后的内容就不会再执行了。这是exec和source的区别</code></pre>3)source<pre><code>执行子级命令后继续执行父级命令，同时子级设置的环境变量会影响到父级的环境变量。fork的区别是不新开一个sub-shell来执行被调用的脚本，而是在同一个shell中执行. 所以被调用的脚本中声明的变量和环境变量, 都可以在主脚本中得到和使用.</code></pre></li><li>后台运行脚本的几种方式<br>1) nohup<br>2) { }&amp;<br>3) jobs,fg,bg</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;bash-csh-sh等bash解释器区别&quot;&gt;&lt;a href=&quot;#bash-csh-sh等bash解释器区别&quot; class=&quot;headerlink&quot; title=&quot;bash,csh,sh等bash解释器区别&quot;&gt;&lt;/a&gt;bash,csh,sh等bash解释器区别&lt;/
-      
+      &lt;h3 id=&quot;bash-csh-sh等bash解释器区别&quot;&gt;&lt;a href=&quot;#bash-csh-sh等bash解释器区别&quot; class=&quot;headerlink&quot; title=&quot;bash,csh,sh等bash解释器区别&quot;&gt;&lt;/a&gt;bash,csh,sh等bash解释器区别&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;sh(Bourne shell),最老的shell，也是最基础的&lt;/li&gt;
+&lt;li&gt;bash(Bourne Again Shell),Linux 默认，shell的扩展版本，包含部分csh和ksh的特性&lt;/li&gt;
+&lt;li&gt;csh，语法和c比较类似&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;tsch，c shell的扩展版本，支持补全，校正等便捷操作&lt;br&gt;-ksh(korn shell),结合csh和bash特点兼容bash&lt;/p&gt;
     
     </summary>
     
